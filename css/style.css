@@ -1,0 +1,384 @@
+body{
+    background-color: lightgray;
+}
+ul{
+    padding-left: 0px;
+}
+.h-bg{
+    background-color: #131921;
+    height: 65px;
+    color: #fff;
+
+}
+.s-n{
+    list-style: none;
+}
+.list{
+    list-style: none;
+}
+.p-top{
+    padding-top: 100p;
+}
+.list ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0%;
+
+}
+.list ul{
+    display: inline-block;
+}
+
+    
+.headerfont {
+    font-size: x-small;
+}
+.line-h{
+    line-height: 0px;
+}
+.anger a{
+    text-decoration: none;
+}
+.select-A{
+    font-weight: bold;
+}
+.f-serach{
+    background-color: #f3f3f3;
+}
+.search-b{
+    background-color: #febd69;
+}
+
+.border-white:hover {
+    border: 1.5px solid #ffffff;
+}
+.head-2{
+    background-color: #232f3e;
+    height: 50px;
+}
+.navigation-menu {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .navigation-menu button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  .sidebar-container-navigation {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    background-color: transparent;
+    transform: translateX(-100%);
+    display: flex;
+    transition: transform 0.3s;
+
+
+}
+.h{
+    height: 400px;
+}
+
+.second-header ul {
+    margin: 0%;
+    height: 40px;
+
+}
+.second-header ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+    color: #fff;
+    font-size:medium;
+}
+.seconder-header:hover{
+ border: 1.5px solid #ffffff;
+}
+.border-image{
+    height: 350px;
+    width: 357px;
+    background-color: #fff;
+
+}
+.p-l{
+    padding-left: 106px;
+}
+.p-le{
+    padding-left: 121px;
+}
+.img-last{
+    width: auto;
+    height: auto;
+    background-color: #fff;
+
+}
+.button{
+    padding-left: 18px;
+    padding-right: 14px;
+}
+.button-color{
+    background-color: #FFD814;
+}
+.button-swich{
+    border-radius: 0%;
+    background-color: #FFD814;
+    height: 10px;
+    width: 50px;
+}
+.se-bg{
+
+    background-color: lightgray;
+}
+.ba-white{
+background-color: #fff;
+color: black;
+}
+.pro-name{
+    font-size: small;
+}
+.w-22{
+    width: 22%;
+}
+@media (min-width: 768px)
+{
+
+}.pro-w  div .col-md-3 {
+    width: 20%;
+    
+}
+.w-24{
+    width: 24%;
+}
+.h-60{
+    height: auto;
+}
+.footer-top{
+    margin-top: 30px;
+    height: 50px;
+    color: #fff;
+    background-color: #37475A;
+}
+.footer-center{
+    background-color: #232F3E;
+    height: 4
+    00px;
+}
+
+/* footer mouse pointer  */
+.footer-mouse ul li{    
+list-style: none;
+}
+.footer-mouse ul li a{
+color: #fff;
+text-decoration: none;
+font-size: 15px;
+}
+.footer-mouse ul li a:hover{
+text-decoration: underline;
+}
+
+
+/* Multi item carousel styles starts*/
+@media (max-width: 1100px) {
+    .multi-carousel .carousel-inner .carousel-item>div {
+        display: none
+    }
+
+    .multi-carousel .carousel-inner .carousel-item>div:first-child {
+        display: block
+    }
+        /* Default styles */
+        body {
+            font-size: 16px;
+            background-color: #fff ;
+
+        }
+}
+
+.multi-carousel .carousel-inner .carousel-item.active,
+.multi-carousel .carousel-inner .carousel-item-next,
+.multi-carousel .carousel-inner .carousel-item-prev {
+    display: flex
+}
+
+@media (min-width: 1100px) {
+
+    .multi-carousel .carousel-inner .carousel-item-end.active,
+    .multi-carousel .carousel-inner .carousel-item-next {
+        transform: translateX(25%)
+    }
+
+    .multi-carousel .carousel-inner .carousel-item-start.active,
+    .multi-carousel .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%)
+    }
+}
+
+.multi-carousel .carousel-inner .carousel-item-end,
+.multi-carousel .carousel-inner .carousel-item-start {
+    transform: translateX(0)
+}
+
+/* Multi item carousel styles ends*/
+.offer-button{
+    height: 25px;
+    width: auto;
+    background-color: #CC0C39;
+}
+.offer-font{
+    font-size: 15px;
+}
+.on-day{
+    color: #CC0C39;
+
+}
+.mini-size{
+    font-size: 12px!important;
+    line-height: 16px!important;
+}
+.mini-size-2{
+    font-size: 15px;
+}
+.multi-carousel .carousel-item .card-img{
+    display: flex !important;
+    height: 200px !important;
+    justify-content: center !important;
+    position: relative !important;
+}
+.multi-carousel .carousel-item .card-img img{
+    margin: auto !important;
+    max-height: 184px !important;
+    max-width: 224px !important;
+}
+.multi-carousel .carousel-item .card-img::after{
+    background: rgba(15,17,17,.03) !important;
+    border-radius: 4px  !important;
+    content: ""  !important;
+    height: 100%  !important;
+    pointer-events: none  !important;
+    position: absolute  !important;
+    width: 100%  !important;
+}
+.multi-carousel .carousel-item .card-img img ::after{
+    background: rgba(15,17,17,.03)  !important;
+    border-radius: 4px  !important;
+    content: ""  !important;
+    height: 100%  !important;
+    pointer-events: none  !important;
+    position: absolute  !important;
+    width: 100%  !important;
+}
+/* responsive  */
+
+@media only screen and (max-width: 1100px) {
+    .h-bg{
+        height: auto;
+        padding: 0%;
+      width: 100%;
+    }
+    .border-image{
+        width: auto;
+    }
+}
+
+
+.rem-1{
+    font-size: 1rem;
+}
+@media screen and (max-width: 1100px)
+{ .res{
+    width: auto;
+
+}
+}
+@media screen and (max-width: 1100px)
+{ .cen {
+ text-align: center;
+width: auto !important; 
+
+
+
+}
+}
+@media screen and (max-width: 1100px)
+
+{ .cen-2 {
+  text-align: end;
+   
+   }
+   }
+   @media only screen and (max-width: 1100px) {
+    .head-2{
+        height: 210px;
+        width: auto;
+  
+       
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .res-slice-img{
+        width: auto;
+        padding: 10px !important;
+        height: 60px;
+       
+    
+       
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .res-slice-img-{
+        width: auto;
+        padding: 10px !important;
+        height: 60px;
+       
+    
+       
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .res-image-2{
+        width: auto;
+        padding-left: 0px !important;
+        text-align: center !important;
+    
+       
+    }  
+}
+
+@media only screen and (max-width:1100px) {
+    .center{
+        text-align: center;
+    }
+    
+}
+/* sign your best exprience */
+@media only screen and (max-width:1100px) { 
+    .img-last{
+       width: auto;
+    height: auto;
+    background-color: #ffff;
+
+    }
+    
+}
+@media only screen and (max-width:1100px) { 
+    body{
+     background-color: #fff;
+    }
+    .laptop_brands_img{
+        width: 100%;
+    }
+    
+}
+.laptop_brands_img{
+    max-width: 250px;
+}
