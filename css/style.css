@@ -382,3 +382,10 @@ width: auto !important;
 .laptop_brands_img{
     max-width: 250px;
 }
+
+.btnPad{
+    padding: 5px;
+    align-items: center;
+    margin: 0%;
+    padding-bottom: 1px;
+}
